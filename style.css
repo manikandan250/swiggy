@@ -1,0 +1,39 @@
+.row{
+	display:flex;
+	
+}
+.container{
+	margin:0 auto;
+	width:90%;
+}
+img{
+	width:100%;
+	
+}
+.col{
+	padding:10px;
+}
+.flex{
+	display:flex;
+	justify-content:space-between;
+	border-bottom:1px solid black;
+}
+.rat-content{
+	background-color: #4dff4d;
+	 
+}
+.add{
+	display:flex;
+	
+}
+.add1{
+	margin-left: 12px;
+    background-color: #378739;
+    color: white;
+    width: 19%;
+    height: 20px;
+    padding: 11px;
+}
+i{
+	padding:10px;
+}
