@@ -35,6 +35,43 @@ let foods=[
 	time:"22 minits",
 	amount:150
 },
+{
+	id:5,
+	name:"Thaal Kitchen",
+	cuisine:"North Indian, Beverages",
+	imgurl:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/dxpwrrsfmww25bnndgzf",
+	rating:3.9,
+	time:"18 minits",
+	amount:200
+},
+{
+	id:6,
+	name:"Mughal Biriyani",
+	cuisine:"Biryani, Beverages",
+	imgurl:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/wkzj9sl670palebphvae",
+	rating:3.9,
+	time:"25 minits",
+	amount:250
+},
+{
+	id:7,
+	name:"Burger King",
+	cuisine:"Burgers, American",
+	imgurl:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/of4ylxfff12qbmcrexux",
+	rating:4.2,
+	time:"32 minits",
+	amount:350
+},
+{
+	id:8,
+	name:"Falooda Nation",
+	cuisine:"Desserts, Beverages",
+	imgurl:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/n54tpd2chjww4lmgvcyl",
+	rating:4.1,
+	time:"37 minits",
+	amount:400
+}
+
 ]
 
 let container=document.querySelector(".container");
