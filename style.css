@@ -33,7 +33,18 @@ img{
     width: 19%;
     height: 20px;
     padding: 11px;
+	margin-top:10px;
+	align-items:center;
 }
 i{
-	padding:10px;
+	padding:8px;
+	margin-top:10px;
+}
+input{
+	width:10%;
+	outline:none;
+}
+.incre{
+	text-align:center;
+	margin-top:10px;
 }

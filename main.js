@@ -25,7 +25,16 @@ let foods=[
 	rating:4.2,
 	time:"26 minits",
 	amount:200
-}
+},
+{
+	id:4,
+	name:"Pandhal Cake Shop",
+	cuisine:"Kakkanad, Edappally | Change Outlet",
+	imgurl:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ufoidiletnquihcuwrnh",
+	rating:4.3,
+	time:"22 minits",
+	amount:150
+},
 ]
 
 let container=document.querySelector(".container");
@@ -63,7 +72,7 @@ foods.forEach(function(e){
 			content.appendChild(stars);
 			
 			let icon=document.createElement("i");
-			icon.setAttribute("class","bi bi-star-fill")
+			icon.setAttribute("class","bi bi-star")
 			stars.appendChild(icon);
 			
 			
@@ -96,21 +105,21 @@ foods.forEach(function(e){
 			div2.appendChild(btn);
 			
 			btn.addEventListener("click",function(){
-				if(type.value>0){
-					--type.value;
+				if(inp.value>0){
+					--inp.value;
 				}
 			})
 			
-			let type=document.createElement("input");
-			type.value="0";
-			div2.appendChild(type);
+			let inp=document.createElement("input");
+			inp.value="0";
+			div2.appendChild(inp);
 			
 			let incree=document.createElement("button");
 			incree.innerHTML="+";
 			div2.appendChild(incree);
 			
 			incree.addEventListener("click",function(){
-				++type.value;
+				++inp.value;
 			})
 			
 	
