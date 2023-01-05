@@ -23,6 +23,7 @@ img{
 	display:flex;
 	justify-content:space-between;
 	border-bottom:1px solid #cccccc;
+	
 }
 .rat-content{
 	background-color: #4dff4d;
@@ -33,7 +34,7 @@ img{
 }
 .add1{
 	margin-left: 12px;
-    background-color: #378739;
+    background-color:#48c479;
     color: white;
     height: 20px;
     padding: 11px;
@@ -44,11 +45,32 @@ i{
 	padding:8px;
 	margin-top:10px;
 }
+.ofer{
+	text-align:center;
+	margin-top:13px;
+	border-bottom:1px solid #cccccc;
+	padding-bottom: 7px;
+}
+.ofer span{
+	font-size:12px;
+	color:#8a584b;
+}
+.ofer i{
+	color:#8a584b;
+}
 input{
 	width:10%;
 	outline:none;
+	text-align:center;
+	color:#60b246;
 }
 .incre{
 	text-align:center;
 	margin-top:10px;
+}
+button{
+	color:#60b246;
+	outline:none;
+	border:none;
+	height:1.3rem;
 }

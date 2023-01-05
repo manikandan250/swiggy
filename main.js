@@ -6,7 +6,8 @@ let foods=[
 	imgurl:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/x3d6cifz8rw0ssv4jqwk",
 	rating:4.4,
 	time:"34 minits",
-	amount:"₹500"
+	amount:"₹500",
+	offer:"50% off up to ₹100 | Use code WELCOME50"
 },
 {
 	id:2,
@@ -15,7 +16,7 @@ let foods=[
 	imgurl:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/bdcd233971b7c81bf77e1fa4471280eb",
 	rating:4.1,
 	time:"31 minits",
-	amount:"₹400"
+	amount:"₹400",offer:"50% off up to ₹100 | Use code WELCOME50"
 },
 {
 	id:3,
@@ -24,7 +25,8 @@ let foods=[
 	imgurl:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/s3tg8dldtoi2t8fvodjs",
 	rating:4.2,
 	time:"26 minits",
-	amount:"₹200"
+	amount:"₹200",
+	offer:"50% off up to ₹100 | Use code WELCOME50"
 },
 {
 	id:4,
@@ -33,7 +35,8 @@ let foods=[
 	imgurl:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ufoidiletnquihcuwrnh",
 	rating:4.3,
 	time:"22 minits",
-	amount:"₹150"
+	amount:"₹150",
+	offer:"50% off up to ₹100 | Use code WELCOME50"
 },
 {
 	id:5,
@@ -42,7 +45,8 @@ let foods=[
 	imgurl:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/dxpwrrsfmww25bnndgzf",
 	rating:3.9,
 	time:"18 minits",
-	amount:"₹200"
+	amount:"₹200",
+	offer:"50% off up to ₹100 | Use code WELCOME50"
 },
 {
 	id:6,
@@ -51,7 +55,8 @@ let foods=[
 	imgurl:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/wkzj9sl670palebphvae",
 	rating:3.9,
 	time:"25 minits",
-	amount:"₹250"
+	amount:"₹250",
+	offer:"50% off up to ₹100 | Use code WELCOME50"
 },
 {
 	id:7,
@@ -60,7 +65,8 @@ let foods=[
 	imgurl:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/of4ylxfff12qbmcrexux",
 	rating:4.2,
 	time:"32 minits",
-	amount:"₹350"
+	amount:"₹350",
+	offer:"50% off up to ₹100 | Use code WELCOME50"
 },
 {
 	id:8,
@@ -69,7 +75,8 @@ let foods=[
 	imgurl:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/n54tpd2chjww4lmgvcyl",
 	rating:4.1,
 	time:"37 minits",
-	amount:"₹400"
+	amount:"₹400",
+	offer:"50% off up to ₹100 | Use code WELCOME50"
 }
 
 ]
@@ -130,11 +137,23 @@ foods.forEach(function(e){
 			let amount=document.createElement("div");
 			content.appendChild(amount);
 			
-			
-			
-			let amt=document.createElement("h4");
+		    let amt=document.createElement("h4");
 			amt.innerText=e.amount;
 			amount.appendChild(amt);
+			
+			let offer=document.createElement("div");
+			offer.setAttribute("class","ofer");
+			div1.appendChild(offer);
+			
+			let officon=document.createElement("i");
+			officon.setAttribute("class","bi bi-brightness-high-fill")
+			offer.appendChild(officon);
+			
+		    let off=document.createElement("span");
+			off.innerText=e.offer;
+			offer.appendChild(off);
+			
+			
 			
 			
 			let div2=document.createElement("div");
